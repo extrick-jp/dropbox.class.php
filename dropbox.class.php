@@ -1,12 +1,6 @@
 <?php
 /*
     Dropbox API
-
-    get access_token
-    get file_list
-    get file_url
-    file upload
-    file remove
 -------------------------------------------------------------------------------*/
 class Dropbox {
     // constant definition

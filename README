@@ -1,1 +1,23 @@
-Hello.
+This is a sample of using PHP to access the Dropbox API.
+It also supports uploading files over 150MB using upload-session.
+PHPで、DropboxのAPIを叩くサンプルです。
+upload-sessionを使った150MB超のファイルのアップロードにも対応しています。
+
+Class methods and corresponding endpoints
+getFileList
+    https://api.dropboxapi.com/2/files/list_folder
+    https://api.dropboxapi.com/2/files/list_folder/continue
+
+getFileURL
+    https://api.dropboxapi.com/2/files/get_temporary_link
+
+uploadFile
+    https://content.dropboxapi.com/2/files/upload
+    https://content.dropboxapi.com/2/files/upload_session/start
+    https://content.dropboxapi.com/2/files/upload_session/append_v2
+    https://content.dropboxapi.com/2/files/upload_session/finish    
+
+remove
+    https://api.dropboxapi.com/2/files/delete_v2
+
+
